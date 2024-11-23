@@ -7,6 +7,8 @@ gem 'jekyll-titles-from-headings'
 #gem "wdm", "~> 0.1.0" if Gem.win_platform?
 #gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "minimal-mistakes-jekyll"
+ruby '3.3.6'
+gem 'nokogiri', '~> 1.16.2'
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-paginate"
